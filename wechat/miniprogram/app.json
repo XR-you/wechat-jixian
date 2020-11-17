@@ -1,0 +1,63 @@
+{
+  "pages": [
+    "pages/more/more",
+    "pages/index/index",
+    "pages/search/search",
+    "pages/activity/activity",
+    "pages/answer/answer",
+    "pages/identify/identify",
+    "pages/addTopic/addTopic",
+    "pages/collection/collection",
+    "pages/organization/organization",
+    "pages/addOrganization/addOrganization",
+    "pages/manage/manage",
+    "pages/inform/inform",
+    "pages/activity_admin/activity_admin",
+    "pages/ac_change/ac_change"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#FFCB01",
+    "navigationBarTitleText": "集贤",
+    "navigationBarTextStyle": "white",
+    "enablePullDownRefresh": true
+  },
+  "tabBar": {
+    "color": "#626567",
+    "selectedColor": "#6EDFGB",
+    "backgroundColor": "#F2F2F2",
+    "borderStyle": "white",
+    "list": [
+      {
+        "pagePath": "pages/index/index",
+        "text": "",
+        "iconPath": "images/tabBar/zhuye.png",
+        "selectedIconPath": "images/tabBar/zhuye-copy.png"
+      },
+      {
+        "pagePath": "pages/search/search",
+        "text": "",
+        "iconPath": "images/tabBar/sousuo.png",
+        "selectedIconPath": "images/tabBar/sousuo-copy.png"
+      },
+      {
+        "pagePath": "pages/activity/activity",
+        "text": "",
+        "iconPath": "images/tabBar/huodong.png",
+        "selectedIconPath": "images/tabBar/huodong-copy.png"
+      },
+      {
+        "pagePath": "pages/more/more",
+        "text": "",
+        "iconPath": "images/tabBar/wode.png",
+        "selectedIconPath": "images/tabBar/wode-copy.png"
+      }
+    ]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": true,
+  "sitemapLocation": "sitemap.json"
+}

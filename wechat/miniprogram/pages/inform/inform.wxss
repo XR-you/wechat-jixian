@@ -1,0 +1,30 @@
+/* miniprogram/pages/inform/inform.wxss */
+.container{
+  height: 100%;
+}
+
+.container{
+  /* margin-top: 50rpx; */
+  padding: 0;
+  font-size: 14rpx;
+  color: #000;
+}
+
+.removeButton{
+  margin: 0px 15px 0px 15px;
+  position: absolute;
+  right: 0px;
+}
+
+.newTip{
+  position: absolute;
+  right: 32px;
+}
+
+.inform{
+  width:500rpx;
+}
+
+.inform text{
+  font-size:15px
+}
